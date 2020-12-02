@@ -114,17 +114,6 @@ my.pso<-function(func,n.of.par=50,max.iter=1000,def.range,c.1=2,c.2=2,w.max=0.9,
 set.seed(NULL)
 result<-my.pso(func=eggholder,def.range = def.range,max.iter = 10000)
 
-# Parçacýk Sürü Optimizasyonu
-
-# Parçacýklar verilen taným aralýðýnda rasgele þekilde yerleþtirilir.
-# Cost fonksiyonunda yerleþtirilen parçacýklarýn deðerleri hesaplanýr.
-# Tüm parçacýklardan en iyi sonucu elde eden glabal best olarak nitelendirilir.
-# Belirlenen iterasyon sayýsý kadar dönen bir döngü içerisinde her parçacýðýn konumu
-# verilen güncelleme fonksiyonununa göre güncellenmektedir.
-# Eðer güncelleme sonucu parçacýk taným aralýðý dýþýna çýkarsa taným aralýðý içinde 
-# rasgele bir konuma atanýr.
-# Parçacýklarýn deðiþimleri global best ve bir deðiþkende tutulan he parçacýðýn kendi 
-# En iyi konumlarýna baðlýdýr.
 
 
 
